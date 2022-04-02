@@ -6,8 +6,6 @@ interface InterfaceTransport{
     public function getHP();
     public function getMaxSpeed();
     public function turnOn();
-    public function forward();
-    public function reverse();
     public function specAction();
     public function showInterior();
 }
