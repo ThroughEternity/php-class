@@ -23,7 +23,7 @@ abstract class Transport
         
     }
     public function showInterior(){
-        
+
     }
 
 
@@ -45,6 +45,19 @@ abstract class Transport
             echo 'Не ЖЖЖЖЖ';
         }
     }
+    
+    
+    public function Beeb(){
+        echo'beeeeb!';
+    }
+    
+    public function turnWipers(){
+        echo'Чистка стекла';
+    }
+
 }
+
+
+
 
 
