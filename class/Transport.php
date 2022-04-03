@@ -31,28 +31,28 @@ abstract class Transport
 
     public function goForward(){
         if($this->turnOn()){
-            echo'ЖЖЖЖЖ полный в перёд!';
+            echo'ЖЖЖЖЖ полный в перёд! ';
         }else{
-            echo 'Не ЖЖЖЖЖ';
+            echo 'Не ЖЖЖЖЖ ';
         }
     }
 
     
     public function goReverse(){
         if($this->turnOn()){
-            echo'ЖЖЖЖЖ полный назад!';
+            echo'ЖЖЖЖЖ полный назад! ';
         }else{
-            echo 'Не ЖЖЖЖЖ';
+            echo 'Не ЖЖЖЖЖ ';
         }
     }
     
     
     public function Beeb(){
-        echo'beeeeb!';
+        echo'Биииб! ';
     }
     
     public function turnWipers(){
-        echo'Чистка стекла';
+        echo'Очистка стекла ';
     }
 
 }
